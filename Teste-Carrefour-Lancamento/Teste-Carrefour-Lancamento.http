@@ -1,0 +1,6 @@
+@Teste_Carrefour_Lancamento_HostAddress = http://localhost:5267
+
+GET {{Teste_Carrefour_Lancamento_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,36 @@
+﻿services:
+  # Postgres SQL
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: appdatabase
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+
+  # RabbitMQ Service
+  docker-rabbitmq-server:
+    container_name: docker-rabbitmq-server
+    image: rabbitmq:management
+
+    environment:
+      - RABBITMQ_DEFAULT_USER=teste
+      - RABBITMQ_DEFAULT_PASS=teste123
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  postgres_data:

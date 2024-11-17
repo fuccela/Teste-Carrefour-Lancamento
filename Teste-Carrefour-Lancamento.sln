@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Carrefour.Lancamento.API", "Teste-Carrefour-Lancamento\Teste.Carrefour.Lancamento.API.csproj", "{F6BAE37A-587F-411F-B1B1-A87F253C4B95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69A9AFD8-F221-4847-BE3E-29A01F7DD199} = {69A9AFD8-F221-4847-BE3E-29A01F7DD199}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Carrefour.Lancamento.Core", "Teste.Carrefour.Lancamento.Core\Teste.Carrefour.Lancamento.Core.csproj", "{168F16D4-CDC5-4455-B174-307699AAC9C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Carrefour.Lancamento.Infrastructure", "Teste.Carrefour.Lancamento.Infrastructure\Teste.Carrefour.Lancamento.Infrastructure.csproj", "{69A9AFD8-F221-4847-BE3E-29A01F7DD199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.Carrefour.Lancamento.Test", "Teste.Carrefour.Lancamento.Test\Teste.Carrefour.Lancamento.Test.csproj", "{1A3BA801-7716-42AB-98A1-CE95DB7BD3CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6BAE37A-587F-411F-B1B1-A87F253C4B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BAE37A-587F-411F-B1B1-A87F253C4B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BAE37A-587F-411F-B1B1-A87F253C4B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BAE37A-587F-411F-B1B1-A87F253C4B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168F16D4-CDC5-4455-B174-307699AAC9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168F16D4-CDC5-4455-B174-307699AAC9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168F16D4-CDC5-4455-B174-307699AAC9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168F16D4-CDC5-4455-B174-307699AAC9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A9AFD8-F221-4847-BE3E-29A01F7DD199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A9AFD8-F221-4847-BE3E-29A01F7DD199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A9AFD8-F221-4847-BE3E-29A01F7DD199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A9AFD8-F221-4847-BE3E-29A01F7DD199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3BA801-7716-42AB-98A1-CE95DB7BD3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3BA801-7716-42AB-98A1-CE95DB7BD3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3BA801-7716-42AB-98A1-CE95DB7BD3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3BA801-7716-42AB-98A1-CE95DB7BD3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B3DFAD6-1D52-4156-86D7-37521357A437}
+	EndGlobalSection
+EndGlobal
