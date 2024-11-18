@@ -81,8 +81,8 @@ A project to manage daily financial transactions and generate consolidated summa
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/fuccela/Teste-Carrefour-Lancamento.git
+   cd Teste-Carrefour-Lancamento/Teste-Carrefour-Lancamento
    ```
 
 2. Build the Docker containers:
